@@ -119,7 +119,7 @@ if __name__ == '__main__':
     print(COMMANDLINE)
     if args.submit == 'no':
         os.system(COMMANDLINE)  # textattack/roberta-base-ag-news # textattack/roberta-base-imdb
-    # #
+    # # what is nlprun?
     elif args.submit == 'yes':
         if args.use_big == 'no':
             full_command = "nlprun  -g 1 -n {} -x jagupard10,jagupard11,jagupard12,jagupard13,jagupard14,jagupard15,jagupard16,jagupard17,jagupard20 \'{}\'".format(
